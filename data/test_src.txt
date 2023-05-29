@@ -1,0 +1,10 @@
+C 1 C C O C 1 . O = [N+] ( [O-] ) c 1 c c ( F ) c ( F ) c c 1 F . [H-] . N # C c 1 c c s c 1 N . [Na+]
+C C C C P ( C C C C ) C C C C . C c 1 n n ( - c 2 c c c ( C ( F ) ( F ) F ) c c 2 ) c c 1 C ( C ) C O . C O C ( = O ) C c 1 c n ( C ) c 2 c c ( O ) c c c 1 2 . C c 1 c c c c c 1
+C C O C C . Cl C ( Cl ) Cl . Cl . Cl . N C 1 C C N ( C C 2 C n 3 c ( = O ) c c c 4 n c c ( F ) c 2 c 4 3 ) C C 1 O . O = C c 1 c c 2 c ( c n 1 ) O C S 2
+C = C ( C ) C ( = O ) Cl . C C N ( C C ) C C . Cl C Cl . C C ( C ) = C 1 C ( = O ) N ( c 2 c c c ( O ) c c 2 ) C ( = O ) C 1 = C ( C ) c 1 c c ( - c 2 c c c c c 2 ) s c 1 C
+O = C c 1 c n c c ( Cl ) c 1 C O C 1 C C C C O 1 . O C c 1 c ( Cl ) c n c c 1 Cl
+C O c 1 c c c ( C N ( C c 2 c c c ( O C ) c c 2 ) c 2 n c ( C ) n c ( - c 3 c c ( C N 4 C C N ( S ( C ) ( = O ) = O ) C C 4 C ) c n c 3 N c 3 c n c ( O C ) c ( F ) c 3 ) n 2 ) c c 1 . O = C ( O ) C ( F ) ( F ) F . O = S ( = O ) ( O ) C ( F ) ( F ) F
+C c 1 c c c c ( C ) c 1 . [Cl-] . Cl . C C C C C 1 C O 1
+Cl . O c 1 c c c ( - c 2 n c ( C N 3 C C C C C 3 ) c o 2 ) c c 1 F . O C C C N 1 C C C C C 1 . C 1 C C O C 1 . c 1 c c c ( P ( c 2 c c c c c 2 ) c 2 c c c c c 2 ) c c 1
+C S C C N c 1 c c c c 2 n c ( N C c 3 c c c ( C ) o 3 ) c c c 1 2 . O = C ( O O ) c 1 c c c c ( Cl ) c 1 . Cl C Cl
+C C O C C C O . Cl c 1 n s n c 1 - c 1 c c c n c 1 . [H-] . [Na+] . C 1 C C O C 1 . O

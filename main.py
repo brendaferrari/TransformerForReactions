@@ -30,4 +30,4 @@ x_test, y_test = process.get_batch(test_data_encoded, batch_size)
 
 model = Model(len(vocab_src),len(vocab_tgt), 256, 256, 512, 2, 0.5, 0.5, 4)
 model.model_run(x_train, y_train, x_valid, y_valid, N_EPOCHS=10)
-model.test_run(x_test, y_test,vocab_src, vocab_tgt)
+model.test_run(x_test, y_test)

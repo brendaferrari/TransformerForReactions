@@ -80,7 +80,6 @@ class Model:
                 src = x_iterator[i]
                 tgt = y_iterator[i]
 
-
                 output = model(src, tgt, 0)
 
                 output_dim = output.shape[-1]

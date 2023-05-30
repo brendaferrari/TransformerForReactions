@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 import math
 import time
+from transformer_for_reactions.preprocess import Preprocess
 from transformer_for_reactions.encoder import Encoder
 from transformer_for_reactions.decoder import Decoder
 from transformer_for_reactions.seq2seq import Seq2Seq
@@ -11,7 +12,7 @@ from transformer_for_reactions.seq2seq import Seq2Seq
 class Model:
 
     def __init__(self, INPUT_DIM, OUTPUT_DIM, ENC_EMB_DIM, DEC_EMB_DIM, HID_DIM, 
-                    N_LAYERS, ENC_DROPOUT, DEC_DROPOUT):
+                    N_LAYERS, ENC_DROPOUT, DEC_DROPOUT, N_HEADS):
 
         self.INPUT_DIM = INPUT_DIM
         self.OUTPUT_DIM = OUTPUT_DIM
@@ -21,8 +22,10 @@ class Model:
         self.N_LAYERS = 2
         self.ENC_DROPOUT = 0.5
         self.DEC_DROPOUT = 0.5
+        self.N_HEADS = 4
 
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.process = Preprocess()
 
     def init_weights(self, m):
         for name, param in m.named_parameters():

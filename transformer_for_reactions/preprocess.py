@@ -68,7 +68,6 @@ class Preprocess:
         chars = self.char_generator(vocab_src, vocab_tgt)
         stoi,itos = self.iterator(chars)
         encode = lambda s: [stoi[c] for c in s ] # encoder: take a string, output a list of integers
-        decode = lambda l: ''.join([itos[i] for i in l]) # decoder: take a list of integers, output a string
 
         d_iter_list = []
         for d in data:
@@ -83,6 +82,18 @@ class Preprocess:
             d_iter_list.append(d_iter)
         
         return d_iter_list
+
+    def decode_data(self, vocab_src, vocab_tgt, data):
+
+        chars = self.char_generator(vocab_src, vocab_tgt)
+        stoi,itos = self.iterator(chars)
+        decode = lambda l: ''.join([itos[i] for i in l]) # decoder: take a list of integers, output a string
+
+        data_list = data.tolist()
+        print(data_list)
+        data_decoded = decode(data_list)
+        
+        return data_decoded
 
     def get_batch(self, data, batch_size):
 
